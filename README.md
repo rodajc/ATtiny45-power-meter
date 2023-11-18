@@ -3,6 +3,10 @@ Simple power usage monitor with just a split-coil current transformer and a ATti
 
 To use this USB power usage monitor simply clamp a split-coil current transformer like the SCT013-000 in the picture onto the electric cable to be measured.
 
+<picture>
+ <img alt="SCT013-000 and ATtiny45" src="https://github.com/rodajc/USB-power-meter/blob/main/images/ATTINY45%2BSCT013-000-100-small.jpg">
+</picture>
+
 The current transformer generates a current in the secondary coil that is proportional to the current going through the primary coil.
 
 The challenge is to measure the current and make it available through USB. The first step it to convert the current to a voltage by connecting a load resistor to the secondary coil. The result is an AC voltage.
