@@ -3,7 +3,7 @@ Simple power usage monitor with just a split-coil current transformer and a ATti
 
 ## Hardware
 
-To use this USB power usage monitor simply clamp a split-coil current transformer like the SCT013-000 in the picture onto the electric cable to be measured.
+To use this USB power usage monitor simply clamp a split-coil current transformer like the [SCT013-000](https://docs.openenergymonitor.org/electricity-monitoring/ct-sensors/yhdc-sct-013-000-ct-sensor-report.html) in the picture onto the electric cable to be measured.
 
 <picture>
  <img alt="SCT013-000 and ATtiny45" src="https://github.com/rodajc/USB-power-meter/blob/main/images/ATTINY45%2BSCT013-000-100-small.jpg">
