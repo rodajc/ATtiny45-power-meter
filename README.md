@@ -9,7 +9,7 @@ To use this USB power usage monitor simply clamp a split-coil current transforme
  <img alt="SCT013-000 and ATtiny45" src="https://github.com/rodajc/USB-power-meter/blob/main/images/ATTINY45%2BSCT013-000-100-small.jpg">
 </picture>
 
-The current transformer generates a current in the secondary coil that is proportional to the current going through the primary coil.
+The current transformer generates a current in the secondary coil that is proportional to the current going through the primary coil which is proportional to the [apparent power](https://en.wikipedia.org/wiki/AC_power#Apparent_power) usage assuming a resistive load.
 
 The challenge is to measure the current and make it available through USB. The first step is to convert the current to a voltage by connecting a load resistor to the secondary coil. The result is an AC voltage.
 
